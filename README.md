@@ -5,7 +5,8 @@ Can a computer recognise **Kenyan Sign Language (KSL)** from an ordinary phone p
 **Term paper · DSA 4050-XA Deep Learning · United States International University–Africa (Fall 2026)**  
 Selmah Tzindori (669602) · Lecturer: Dr. Alex Wambua
 
-🔗 **Live dashboard:** _link added after deployment_
+🔗 **Live dashboard:** [ksl-recognition.streamlit.app](https://ksl-recognition.streamlit.app)  
+📄 **Report:** [`report/`](report/) · 🎞️ **Slides:** [`slides/`](slides/)
 
 ## Key results
 
