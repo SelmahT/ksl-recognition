@@ -1,0 +1,13 @@
+model,type,train_accuracy,val_accuracy,test_accuracy,test_macro_f1,fit_time_s,predict_ms_per_image,params,notes,notebook,saved_at,n_params_millions
+raw_pixels+logreg,classic_ml,0.2799,0.1807,0.2062,0.203,1.5708,0.0219,"{""C"": 0.01, ""pca"": 150}",,04_classic_ml,2026-11-04 15:11:25,
+raw_pixels+svm_rbf,classic_ml,0.9968,0.3786,0.3496,0.3516,25.9071,1.0718,"{""C"": 10.0, ""pca"": 150}",,04_classic_ml,2026-11-04 15:11:57,
+raw_pixels+random_forest,classic_ml,1.0,0.307,0.2678,0.2623,25.8287,0.1565,"{""max_depth"": null, ""pca"": 150}",,04_classic_ml,2026-11-04 15:12:23,
+raw_pixels+knn,classic_ml,0.3888,0.3048,0.2752,0.271,0.5804,0.1534,"{""k"": 15, ""pca"": 150}",,04_classic_ml,2026-11-04 15:12:24,
+hog+logreg,classic_ml,0.6238,0.5401,0.5228,0.5238,2.5425,0.0236,"{""C"": 0.01, ""pca"": 150}",,04_classic_ml,2026-11-04 15:12:27,
+hog+svm_rbf,classic_ml,1.0,0.6342,0.6004,0.6026,19.9847,1.3504,"{""C"": 10.0, ""pca"": 150}",,04_classic_ml,2026-11-04 15:12:55,
+hog+random_forest,classic_ml,1.0,0.5647,0.5175,0.5164,19.2518,0.1546,"{""max_depth"": null, ""pca"": 150}",,04_classic_ml,2026-11-04 15:13:14,
+hog+knn,classic_ml,0.6426,0.584,0.5579,0.5581,1.2492,0.1301,"{""k"": 15, ""pca"": 150}",,04_classic_ml,2026-11-04 15:13:16,
+cnn_scratch,deep_learning,0.9328,0.8578,0.8427,0.8431,2506.0,5.448,"{""epochs_max"": 60, ""lr"": 0.001, ""augmentation"": true}",,05_deep_learning,2026-11-04 16:58:56,1.18
+mobilenetv2,deep_learning,0.9344,0.8439,0.8162,0.8174,446.9,4.237,"{""head_epochs_max"": 15, ""ft_epochs_max"": 25, ""lr_head"": 0.001, ""lr_finetune"": 1e-05, ""unfrozen_layers"": 40, ""augmentation"": true}",,05_deep_learning,2026-11-04 16:59:26,2.27
+efficientnetb0,deep_learning,0.9039,0.8642,0.8491,0.8493,604.3,8.037,"{""head_epochs_max"": 15, ""ft_epochs_max"": 25, ""lr_head"": 0.001, ""lr_finetune"": 1e-05, ""unfrozen_layers"": 40, ""augmentation"": true}",,05_deep_learning,2026-11-04 17:00:10,4.06
+efficientnetb0_ft2,deep_learning,0.9578,0.8898,0.8597,0.8593,596.4,7.045,"{""source"": ""efficientnetb0"", ""unfrozen_layers"": 100, ""lr"": 1e-05, ""epochs_max"": 40}",continued fine-tuning of efficientnetb0; fit_time is the extra stage only,05_deep_learning,2026-11-04 17:10:30,4.06

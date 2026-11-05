@@ -1,0 +1,5 @@
+item,type,files,size_mb
+Images,folder,8928,1185.39
+sample_submission.csv,file,1,0.07
+test.csv,file,1,0.05
+train.csv,file,1,0.15

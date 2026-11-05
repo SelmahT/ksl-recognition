@@ -1,0 +1,12 @@
+image_id,label,skin_ratio,reason
+ImageID_6IWDCR84,Love,0.056,no sign visible (manual review)
+ImageID_L3XB0109,Friend,0.062,no sign visible (manual review)
+ImageID_SOXPPFY7,Enough/Satisfied,0.092,near-duplicate of an excluded image (mixed-label group)
+ImageID_24CNR8Q5,Me,0.004,no sign visible (manual review)
+ImageID_Y03JC7Z2,Enough/Satisfied,0.065,no sign visible (manual review)
+ImageID_EX8EVQ7A,Temple,0.065,no sign visible (manual review)
+ImageID_WMETEGZQ,You,0.0,no sign visible (manual review)
+ImageID_WY7ECZNS,Love,0.097,near-duplicate of an excluded image (mixed-label group)
+ImageID_CFLDK4S2,Me,0.124,near-duplicate of an excluded image (mixed-label group)
+ImageID_QALYD6AQ,Friend,0.031,no sign visible (manual review)
+ImageID_RKGJKNF8,Love,0.004,no sign visible (manual review)

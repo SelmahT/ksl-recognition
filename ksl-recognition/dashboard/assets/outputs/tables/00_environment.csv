@@ -1,0 +1,8 @@
+component,version
+python,3.13.16
+tensorflow,2.21.0
+scikit_learn,1.6.1
+numpy,2.4.6
+pandas,2.2.3
+gpu,Tesla T4
+platform,Google Colab

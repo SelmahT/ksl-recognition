@@ -1,0 +1,8 @@
+measure,value
+Exact duplicate files (extra copies),0
+Near-duplicate pairs,22
+Images with ≥1 near-duplicate,25
+Near-duplicate groups (size ≥ 2),9
+Largest group,5
+Groups with conflicting labels,8
+Images in conflicting groups,23

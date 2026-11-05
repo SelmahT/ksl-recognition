@@ -1,0 +1,47 @@
+kind,name,path,notebook,caption,saved_at
+table,00_environment,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/00_environment.csv,00_project_setup,Software and hardware environment used for the project.,2026-11-03 19:45:37
+table,01_raw_files,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/01_raw_files.csv,01_data_collection,Contents of the downloaded KSLC dataset.,2026-11-03 19:55:38
+table,01_class_counts,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/01_class_counts.csv,01_data_collection,Number of usable labelled images per KSL sign.,2026-11-03 19:57:53
+table,01_image_dimensions,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/01_image_dimensions.csv,01_data_collection,"Summary of image width, height and file size.",2026-11-03 19:58:12
+figure,01_sample_grid,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/01_sample_grid.png,01_data_collection,One example image for each of the nine KSL signs.,2026-11-03 19:58:22
+figure,02_class_distribution,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_class_distribution.png,02_eda,Number of labelled images per KSL sign.,2026-11-04 14:14:04
+figure,02_orientation_by_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_orientation_by_sign.png,02_eda,Share of portrait and landscape images for each sign.,2026-11-04 14:14:07
+table,02_orientation_by_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/02_orientation_by_sign.csv,02_eda,Portrait and landscape image counts per sign.,2026-11-04 14:14:07
+figure,02_examples_per_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_examples_per_sign.png,02_eda,Five random examples of each KSL sign.,2026-11-04 14:14:18
+table,02_quality_summary,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/02_quality_summary.csv,02_eda,"Summary of brightness, contrast and sharpness across all images.",2026-11-04 14:14:56
+figure,02_quality_by_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_quality_by_sign.png,02_eda,"Brightness, contrast and sharpness of images for each sign.",2026-11-04 14:14:58
+table,02_quality_by_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/02_quality_by_sign.csv,02_eda,"Median brightness, contrast and sharpness per sign.",2026-11-04 14:14:59
+figure,02_blurriest_images,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_blurriest_images.png,02_eda,The eight images with the lowest sharpness score.,2026-11-04 14:15:02
+table,02_duplicate_summary,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/02_duplicate_summary.csv,02_eda,Exact and near-duplicate image counts.,2026-11-04 14:15:27
+figure,02_near_duplicate_examples,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_near_duplicate_examples.png,02_eda,Examples of near-duplicate image groups.,2026-11-04 14:15:32
+figure,02_average_image_per_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/02_average_image_per_sign.png,02_eda,Pixel-wise average of all images for each sign.,2026-11-04 14:16:12
+figure,03_skin_ratio_hist,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/03_skin_ratio_hist.png,03_preprocessing,Distribution of the share of skin-coloured pixels per image.,2026-11-04 14:41:35
+figure,03_review_low_skin,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/03_review_low_skin.png,03_preprocessing,"The 48 images with the lowest skin ratio, reviewed by eye.",2026-11-04 14:42:15
+table,03_excluded_images,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/03_excluded_images.csv,03_preprocessing,Images removed because they show no sign.,2026-11-04 14:44:56
+figure,03_crop_before_after,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/03_crop_before_after.png,03_preprocessing,Original images and their 224×224 centre-cropped versions.,2026-11-04 14:45:23
+table,03_split_counts,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/03_split_counts.csv,03_preprocessing,"Number of images per sign in the training, validation and test sets.",2026-11-04 14:47:59
+figure,03_split_by_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/03_split_by_sign.png,03_preprocessing,"Stratified, group-aware split of each sign into train, validation and test sets.",2026-11-04 14:48:06
+figure,04_hog_examples,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/04_hog_examples.png,04_classic_ml,Greyscale input and HOG edge-orientation features for each sign.,2026-11-04 15:01:08
+table,04_tuning_results,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/04_tuning_results.csv,04_classic_ml,"Validation accuracy for every feature set, model and setting tried.",2026-11-04 15:05:04
+table,04_classic_results,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/04_classic_results.csv,04_classic_ml,Test performance of classic machine-learning models (best setting per model).,2026-11-04 15:13:16
+figure,04_classic_accuracy,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/04_classic_accuracy.png,04_classic_ml,Test accuracy of classic ML models against the random-guess baseline.,2026-11-04 15:13:32
+figure,04_confusion_best_classic,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/04_confusion_best_classic.png,04_classic_ml,Normalised confusion matrix of the best classic model on the test set.,2026-11-04 15:13:42
+table,04_per_class_best_classic,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/04_per_class_best_classic.csv,04_classic_ml,"Per-sign precision, recall and F1 of the best classic model.",2026-11-04 15:13:50
+figure,history_cnn_scratch,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/history_cnn_scratch.png,05_deep_learning,Training curves for cnn_scratch.,2026-11-04 16:29:01
+figure,history_mobilenetv2,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/history_mobilenetv2.png,05_deep_learning,Training curves for mobilenetv2.,2026-11-04 16:37:52
+figure,history_efficientnetb0,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/history_efficientnetb0.png,05_deep_learning,Training curves for efficientnetb0.,2026-11-04 16:48:17
+figure,05_augmentation_examples,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/05_augmentation_examples.png,05_deep_learning,One training image and six randomly augmented versions.,2026-11-04 16:58:26
+figure,history_efficientnetb0_ft2,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/history_efficientnetb0_ft2.png,05_deep_learning,Training curves for efficientnetb0_ft2.,2026-11-04 17:10:18
+table,05_all_models_comparison,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/05_all_models_comparison.csv,05_deep_learning,Test performance of all classic and deep-learning models.,2026-11-04 17:10:44
+figure,05_all_models_accuracy,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/05_all_models_accuracy.png,05_deep_learning,"Test accuracy of every model, deep learning vs classic ML.",2026-11-04 17:10:50
+table,06_headline_metrics,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/06_headline_metrics.csv,06_evaluation,Test accuracy and macro-F1 with 95% bootstrap confidence intervals.,2026-11-04 17:21:29
+figure,06_confusion_classic_vs_dl,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_confusion_classic_vs_dl.png,06_evaluation,Normalised confusion matrices of the best classic and best deep-learning models.,2026-11-04 17:21:42
+table,06_top_confusions,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/06_top_confusions.csv,06_evaluation,"Most frequent confusions of the deep model, with the classic model's rate for comparison.",2026-11-04 17:21:55
+table,06_per_sign,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/06_per_sign.csv,06_evaluation,"Per-sign precision, recall and F1 of the deep model, with the classic model's F1.",2026-11-04 17:22:06
+figure,06_per_sign_f1,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_per_sign_f1.png,06_evaluation,Per-sign F1-score of the classic and deep-learning models.,2026-11-04 17:22:06
+figure,06_confidence,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_confidence.png,06_evaluation,"Confidence of correct and wrong predictions, and the accuracy/coverage trade-off of a confidence threshold.",2026-11-04 17:22:18
+figure,06_misclassified,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_misclassified.png,06_evaluation,The 16 most confident misclassifications of the deep model.,2026-11-04 17:22:39
+figure,06_gradcam_correct,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_gradcam_correct.png,06_evaluation,Grad-CAM heatmaps for one correctly classified image of each sign.,2026-11-04 17:24:06
+figure,06_gradcam_mistakes,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_gradcam_mistakes.png,06_evaluation,Grad-CAM heatmaps for six confident misclassifications.,2026-11-04 17:24:40
+table,06_robustness,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/tables/06_robustness.csv,06_evaluation,"Test accuracy of both models under blur, darkness, rotation and noise.",2026-11-04 17:26:18
+figure,06_robustness,/content/drive/MyDrive/DSA4050/ksl-recognition/outputs/figures/06_robustness.png,06_evaluation,"Accuracy of both models when test images are blurred, darkened, rotated or noisy.",2026-11-04 17:26:32

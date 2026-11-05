@@ -1,0 +1,7 @@
+true → predicted,deep_learning,classic
+Friend → Love,0.238,0.286
+Love → Friend,0.146,0.223
+Church → Enough/Satisfied,0.096,0.212
+Mosque → Church,0.067,0.067
+Temple → Church,0.067,0.19
+Church → Mosque,0.058,0.058

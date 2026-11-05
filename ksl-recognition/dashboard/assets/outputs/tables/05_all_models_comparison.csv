@@ -1,0 +1,13 @@
+model,type,train_accuracy,val_accuracy,test_accuracy,test_macro_f1,fit_time_s,predict_ms_per_image,n_params_millions
+efficientnetb0_ft2,deep_learning,0.9578,0.8898,0.8597,0.8593,596.4,7.045,4.06
+efficientnetb0,deep_learning,0.9039,0.8642,0.8491,0.8493,604.3,8.037,4.06
+cnn_scratch,deep_learning,0.9328,0.8578,0.8427,0.8431,2506.0,5.448,1.18
+mobilenetv2,deep_learning,0.9344,0.8439,0.8162,0.8174,446.9,4.237,2.27
+hog+svm_rbf,classic_ml,1.0,0.6342,0.6004,0.6026,19.9847,1.3504,
+hog+knn,classic_ml,0.6426,0.584,0.5579,0.5581,1.2492,0.1301,
+hog+logreg,classic_ml,0.6238,0.5401,0.5228,0.5238,2.5425,0.0236,
+hog+random_forest,classic_ml,1.0,0.5647,0.5175,0.5164,19.2518,0.1546,
+raw_pixels+svm_rbf,classic_ml,0.9968,0.3786,0.3496,0.3516,25.9071,1.0718,
+raw_pixels+knn,classic_ml,0.3888,0.3048,0.2752,0.271,0.5804,0.1534,
+raw_pixels+random_forest,classic_ml,1.0,0.307,0.2678,0.2623,25.8287,0.1565,
+raw_pixels+logreg,classic_ml,0.2799,0.1807,0.2062,0.203,1.5708,0.0219,

@@ -1,0 +1,310 @@
+{
+  "env_python": {
+    "value": "3.13.16",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_tensorflow": {
+    "value": "2.21.0",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_scikit_learn": {
+    "value": "1.6.1",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_numpy": {
+    "value": "2.4.6",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_pandas": {
+    "value": "2.2.3",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_gpu": {
+    "value": "Tesla T4",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "env_platform": {
+    "value": "Google Colab",
+    "notebook": "00_project_setup",
+    "saved_at": "2026-11-03 19:45:36"
+  },
+  "raw_total_files": {
+    "value": 8931,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:55:39"
+  },
+  "raw_total_size_mb": {
+    "value": 1185.7,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:55:39"
+  },
+  "n_image_files_on_disk": {
+    "value": 8928,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:56:39"
+  },
+  "n_missing_labelled": {
+    "value": 0,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:56:39"
+  },
+  "n_missing_unlabelled": {
+    "value": 0,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:56:39"
+  },
+  "n_labelled_total": {
+    "value": 6249,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:37"
+  },
+  "n_labelled_corrupt_or_missing": {
+    "value": 0,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:37"
+  },
+  "n_labelled_usable": {
+    "value": 6249,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:37"
+  },
+  "n_unlabelled_total": {
+    "value": 2679,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:37"
+  },
+  "n_classes": {
+    "value": 9,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:54"
+  },
+  "class_names": {
+    "value": [
+      "Church",
+      "Enough/Satisfied",
+      "Friend",
+      "Love",
+      "Me",
+      "Mosque",
+      "Seat",
+      "Temple",
+      "You"
+    ],
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:54"
+  },
+  "imbalance_ratio": {
+    "value": 1.0,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:57:54"
+  },
+  "most_common_size": {
+    "value": "720x1280",
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:58:12"
+  },
+  "n_distinct_sizes": {
+    "value": 2,
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:58:12"
+  },
+  "colour_modes": {
+    "value": {
+      "RGB": 6249
+    },
+    "notebook": "01_data_collection",
+    "saved_at": "2026-11-03 19:58:12"
+  },
+  "random_baseline_accuracy": {
+    "value": 0.1111,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:14:05"
+  },
+  "landscape_share_overall_pct": {
+    "value": 20.9,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:14:07"
+  },
+  "landscape_share_range_pct": {
+    "value": [
+      15.3,
+      28.4
+    ],
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:14:08"
+  },
+  "blur_cutoff_sharpness_p5": {
+    "value": 126.7,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:03"
+  },
+  "blurry_by_sign": {
+    "value": {
+      "Church": 32,
+      "Enough/Satisfied": 29,
+      "Friend": 20,
+      "Love": 34,
+      "Me": 48,
+      "Mosque": 26,
+      "Seat": 33,
+      "Temple": 36,
+      "You": 55
+    },
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:03"
+  },
+  "exact_duplicate_extra_copies": {
+    "value": 0,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "near_dup_pairs": {
+    "value": 22,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "images_with_near_dup": {
+    "value": 25,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "images_with_near_dup_pct": {
+    "value": 0.4,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "near_dup_groups": {
+    "value": 9,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "dup_groups_conflicting_labels": {
+    "value": 8,
+    "notebook": "02_eda",
+    "saved_at": "2026-11-04 14:15:27"
+  },
+  "n_excluded_no_sign": {
+    "value": 11,
+    "notebook": "03_preprocessing",
+    "saved_at": "2026-11-04 14:44:57"
+  },
+  "n_images_after_cleaning": {
+    "value": 6238,
+    "notebook": "03_preprocessing",
+    "saved_at": "2026-11-04 14:45:02"
+  },
+  "n_train": {
+    "value": 4362,
+    "notebook": "03_preprocessing",
+    "saved_at": "2026-11-04 14:47:59"
+  },
+  "n_val": {
+    "value": 935,
+    "notebook": "03_preprocessing",
+    "saved_at": "2026-11-04 14:47:59"
+  },
+  "n_test": {
+    "value": 941,
+    "notebook": "03_preprocessing",
+    "saved_at": "2026-11-04 14:47:59"
+  },
+  "best_classic_model": {
+    "value": "hog+svm_rbf",
+    "notebook": "04_classic_ml",
+    "saved_at": "2026-11-04 15:14:00"
+  },
+  "best_classic_test_accuracy": {
+    "value": 0.6004,
+    "notebook": "04_classic_ml",
+    "saved_at": "2026-11-04 15:14:00"
+  },
+  "best_classic_test_macro_f1": {
+    "value": 0.6026,
+    "notebook": "04_classic_ml",
+    "saved_at": "2026-11-04 15:14:00"
+  },
+  "best_dl_model": {
+    "value": "efficientnetb0_ft2",
+    "notebook": "05_deep_learning",
+    "saved_at": "2026-11-04 17:11:04"
+  },
+  "best_dl_test_accuracy": {
+    "value": 0.8597,
+    "notebook": "05_deep_learning",
+    "saved_at": "2026-11-04 17:11:04"
+  },
+  "best_dl_test_macro_f1": {
+    "value": 0.8593,
+    "notebook": "05_deep_learning",
+    "saved_at": "2026-11-04 17:11:04"
+  },
+  "dl_vs_classic_gain_pts": {
+    "value": 25.9,
+    "notebook": "05_deep_learning",
+    "saved_at": "2026-11-04 17:11:04"
+  },
+  "dl_test_accuracy_95ci": {
+    "value": "0.827\u20130.872",
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:21:29"
+  },
+  "classic_test_accuracy_95ci": {
+    "value": "0.571\u20130.632",
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:21:29"
+  },
+  "dl_top2_accuracy": {
+    "value": 0.9469,
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:21:29"
+  },
+  "dashboard_conf_threshold": {
+    "value": 0.8,
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:22:18"
+  },
+  "acc_above_threshold": {
+    "value": 0.9595,
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:22:18"
+  },
+  "coverage_above_threshold": {
+    "value": 0.7864,
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:22:18"
+  },
+  "robustness": {
+    "value": {
+      "deep_learning": {
+        "original": 0.8502,
+        "blur r=2": 0.8353,
+        "blur r=4": 0.6738,
+        "dark \u00d70.6": 0.8533,
+        "dark \u00d70.35": 0.8363,
+        "rotate 15\u00b0": 0.8098,
+        "rotate 30\u00b0": 0.7418,
+        "noise \u03c3=15": 0.8448,
+        "noise \u03c3=30": 0.7683
+      },
+      "classic": {
+        "original": 0.6004,
+        "blur r=2": 0.6047,
+        "blur r=4": 0.5675,
+        "dark \u00d70.6": 0.6089,
+        "dark \u00d70.35": 0.61,
+        "rotate 15\u00b0": 0.4442,
+        "rotate 30\u00b0": 0.17,
+        "noise \u03c3=15": 0.6026,
+        "noise \u03c3=30": 0.5983
+      }
+    },
+    "notebook": "06_evaluation",
+    "saved_at": "2026-11-04 17:26:18"
+  }
+}
