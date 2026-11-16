@@ -1,3 +1,0 @@
-# Models
-
-Saved trained models.
